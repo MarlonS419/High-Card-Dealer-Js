@@ -1,0 +1,23 @@
+{
+  "name": "high-card-dealer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/Game.js",
+    "test": "jest",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest --runInBand"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
