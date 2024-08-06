@@ -1,5 +1,3 @@
-import Card from './Card.js';
-
 class Hand {
   constructor(cards) {
     this.cards = cards || [];
